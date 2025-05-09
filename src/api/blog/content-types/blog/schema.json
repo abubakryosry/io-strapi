@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "abouts",
+  "collectionName": "blogs",
   "info": {
-    "singularName": "about",
-    "pluralName": "abouts",
-    "displayName": "about"
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "blog"
   },
   "options": {
     "draftAndPublish": true
@@ -15,7 +15,10 @@
     }
   },
   "attributes": {
-    "description": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
       "type": "text"
     }
   }

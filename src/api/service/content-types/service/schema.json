@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "abouts",
+  "collectionName": "services",
   "info": {
-    "singularName": "about",
-    "pluralName": "abouts",
-    "displayName": "about"
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "service"
   },
   "options": {
     "draftAndPublish": true
@@ -15,8 +15,8 @@
     }
   },
   "attributes": {
-    "description": {
-      "type": "text"
+    "serviceName": {
+      "type": "string"
     }
   }
 }
