@@ -1,61 +1,61 @@
-# 🚀 Getting started with Strapi
+# 🌐 IO TECH Strapi CMS  
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+The **Al Safar Strapi CMS** serves as the backend for the **Al Safar multilingual website**, built with **Strapi**. It features a flexible content management system supporting both **Arabic** and **English** content.  
 
-### `develop`
-
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
-
-```
-npm run develop
-# or
-yarn develop
-```
-
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-```
-yarn strapi deploy
-```
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+## 🚀 Technologies Used  
+- **Strapi (Node.js)**: Headless CMS for managing and delivering content.  
+- **PostgreSQL**: Database for storing multilingual content.  
+- **Cloudinary**: Efficient image and video management.  
+- **JWT Authentication**: Secure user access and content management.  
 
 ---
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+## 🌟 Features  
+- **Multilingual Content Management (Arabic/English)**  
+  - Create and update content seamlessly for both languages.  
+- **Media Library**  
+  - Upload and manage images and videos with **Cloudinary**.  
+- **Custom Content Types**  
+  - **Hero Section**: Supports both image and video slides.  
+  - **Team Members**: Profiles with names, positions, and photos.  
+  - **Client Showcase**: Logos and testimonials.  
+- **API Integration**  
+  - RESTful API endpoints for the Next.js frontend.  
+- **Role-Based Access**  
+  - Admin and Editor roles for secure content updates.  
+
+---
+
+## 🛠️ Installation  
+
+### 1. Clone the repository:  
+```bash
+git clone https://github.com/abubakryosry/iotech-strapi.git
+cd iotech-strapi
+```
+
+### 2. Install dependencies:
+```bash
+npm install
+```
+
+### 3. Create a `.env` file and configure environment variables:
+```ini
+DATABASE_CLIENT=postgres
+DATABASE_HOST=localhost
+DATABASE_PORT=5432
+DATABASE_NAME=iotech-db
+DATABASE_USERNAME=your-username
+DATABASE_PASSWORD=your-password
+CLOUDINARY_NAME=your-cloudinary-name
+CLOUDINARY_KEY=your-cloudinary-key
+CLOUDINARY_SECRET=your-cloudinary-secret
+```
+
+### 4. Start the development server:
+```bash
+npm run develop
+```
+
+### 5. Access the Strapi admin panel:
+Visit: [http://localhost:1337/admin](http://localhost:1337/admin)
